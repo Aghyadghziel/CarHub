@@ -8,3 +8,8 @@ export interface CustomButtonProps {
   containerStyles: string;
   btnType?: "button" | "submit";
 }
+
+export interface SearchManuFacturerProps {
+  manufacturer: string; 
+  setManuFacturer: (manufacturer: string) => void
+}
